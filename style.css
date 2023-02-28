@@ -1,0 +1,315 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background: url("C:/Users/USER/OneDrive/Desktop/Business Finance and Economics/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1300px 850px;
+    image-resolution: 72dpi;
+
+    color:black;
+}.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+    border-radius:-2px;
+    border-color: aliceblue;
+    
+}.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+}.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight:bolder;
+    margin-left: 35px;
+    animation:step-end .5s ease forwards;
+}.navbar a:hover{
+    color: #0ef;
+}
+ a.active:hover{
+    color:aqua;
+
+}
+.Home{
+    position: relative;
+    width:1258px;
+    height:600px;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}.Home .Home-content{
+    position:relative;
+    align-content:baseline;
+    margin-top: 50px;
+    padding: 200px;
+    margin-left: 20px;
+    display:grid;
+    font-size: larger;  
+    color:white;  
+    animation:reverse 1s ease forwards;
+    animation-delay: 1s;
+
+    
+}.Home-content p{
+    margin:10px 0 40px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+
+}.Home-content h2{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left:-10px;
+}.Home-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0ef;
+}.Home-content h3:nth-of-type(2){
+    margin-bottom:30px;
+
+}.Home-content a{
+    color:#fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    font-weight: 500;
+    border-radius: 60px;
+    width: 200px;
+    padding: 10px 40px;
+    text-align: center;
+
+}.Home-content a:hover{
+    background: #000;
+}.wrapper-login{
+    margin-left: 23px;
+    color:white;
+    margin-top:60px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+
+}.wrapper-login .btn-1{
+    width:100%;
+    height:50px;
+    border:none;
+    outline:none;
+    border-radius: ;
+    background:linear-gradient(90deg,black,brown);
+    box-shadow:0 8px 10px rgb(0,0.0.5);
+    width:400px;
+    margin-left: 10px;
+}.wrapper-login .btn-1:hover{
+    color: red;
+
+
+}.register-link a{
+color:white;
+text-decoration: none;
+text-align: end;
+
+}.input-box label{
+    position:absolute;
+    top:50%;
+    left:45%;
+    transform:translateY(-50%);
+    font-size: 1em;
+    color:#fff;
+    pointer-events:none;
+    margin:70px;
+    margin-right: 700px;
+
+}.form-1{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 3vw;
+    width:50%;
+    max-width: 500px;
+    border-radius: 30px;
+    margin-left:1%;
+    color: #fff;
+    
+}.input-box .icon{
+    position: absolute;
+
+    font-size: 1.2em;
+    color: #fff;
+}
+    
+    
+
+    
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    margin:30px 15px 30px 0;
+    transition: .5s ease-in-out;
+    margin-left: 20px;
+    position:relative;
+    margin-right: auto;
+    left:10%;
+    margin-top:50px;
+    animation:forwards .5s ease-in-out;
+    animation-delay: calc(.2s* var(--i)) ;
+
+    
+
+}.social-media a:hover{
+    background: #0ef;
+    color:#1f242d;
+    box-shadow: 0 0 20px aqua;
+}.btn{
+    color:aqua;
+}
+
+@keyframes step-end{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes forwards{
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.container{
+    width:100%;
+    height:100%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10%;
+    color: #000;
+}form{
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 3vw;
+    width:50%;
+    max-width: 500px;
+    border-radius: 30px;
+    margin-left:1%;
+    
+    
+}form h3{
+    color:white;
+    font-weight: 900;
+    margin-bottom: 20px;
+}form input,form textarea{
+    border: 0;
+    margin: 10px;
+    padding: 20px;
+    outline: none;
+    background-color:transparent;
+    font-size: 16px;
+    width: 400px;
+    font-weight: bolder;
+    border-color:white;
+    border-bottom-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}form button{
+    padding: 15px;
+    background:#ff5361;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline:none;
+    cursor:auto;
+    width: 200px;
+    margin-left: 22%;
+    margin-bottom: auto;
+    border-radius: 30px;
+
+}form button:hover{
+    color: #0ef;
+}footer{
+
+    margin-top:-100px;
+    padding:4px;
+    
+}.text{
+    color:#000;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin: 30px;
+}.btn-1{
+    padding: 15px;
+    background:white;
+    color:black;
+    font-size: 18px;
+    border: 0;
+    outline:none;
+    cursor:auto;
+    width: 200px;
+    margin-left: 22%;
+    margin-bottom: auto;
+    border-radius:10px;
+}
+.ml15{
+    font-weight: 800;
+    font-size: 1.2em;
+    text-transform:capitalize;
+    
+  }
+  
+  .ml15 .word {
+    display: inline-block;
+    line-height: 1em;
+  }.Home .remember-forgot p{
+    text-decoration: none;
+    text-align:end;
+    margin-right: 20px;
+
+  }.Home .remember-forgot .label .input{
+    text-decoration: none;
+    text-align:end;
+    align-items: center;
+    
+
+
+
+  }
+    
+    
